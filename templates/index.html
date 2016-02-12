@@ -1,0 +1,174 @@
+{% extends "base.html" %}
+{% load i18n staticfiles %}
+{% block meta_title %}{% trans "Home" %}{% endblock %}
+{% block title %}{% trans "Home" %}{% endblock %}
+{% block top %}
+
+{% endblock %}
+
+{% block main %}
+<section class="no-margin">
+    <div id="bgblock" class="item">
+        <div class="container" style="height: 600px">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="text-center shadow-text" style="margin-top: 208.2px">
+                        <h1 class="">Imersão</h1>
+                        <h2>Uma experiência pythônica</h2>
+                        <br>
+                        <h3 class="">19 e 20 de março
+                        <h4 class="">Local do Evento - São Carlos, SP</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--/.item-->
+</section>
+
+ <section id="about">
+    <div class="container" style="color: #34495e">
+        <div class="row">
+            <div class="col-sm-5 col-sm-offset-1">
+                <h3 style="margin-top: 0px">Sobre o Imersão</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec maximus ligula. Aenean fermentum magna lacus, a luctus dui maximus ut. Donec dictum, tellus nec pretium dignissim, tortor nulla auctor nunc, non euismod est mauris rutrum metus. Quisque quis elit a lorem fringilla ullamcorper. Duis eu dictum risus, vitae venenatis est. Maecenas fermentum nunc et odio lacinia, a egestas est aliquam.</p>
+            </div>
+            <div class="col-sm-5 col-sm-offset-1">
+                <h3 style="margin-top: 0px">PyLadies São Carlos</h3>
+                <p> Curabitur egestas erat sit amet dolor commodo, ut congue nulla semper. Nunc dictum massa ut est viverra, nec ornare ligula posuere. Quisque sapien ante, sollicitudin ut pulvinar in, molestie vitae dolor. Donec faucibus risus sodales velit condimentum ultrices. Praesent ultrices leo quis nisi laoreet mattis a a nulla. Donec sit amet lobortis lacus. Donec in viverra diam. </p>
+            </div>
+        </div><!--/.row-->
+    </div>
+</section><!--/#recent-works-->
+<section class="emerald" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="media">
+                        <div class="pull-left">
+                            <img src="/static/images/ico/oficina.png" width="64px" style="padding: 0px 5px"/>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading"><b>Oficina</b> 19 de Março</h3>
+                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                        </div>
+                    </div>
+                </div><!--/.col-md-6-->
+                <div class="col-md-6">
+                    <div class="media">
+                        <div class="pull-left">
+                            <img src="/static/images/ico/palestras.png" width="64px" style="padding: 0px 5px"/>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading"><b>Palestras</b> 20 de Março</h3>
+                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                        </div>
+                    </div>
+                </div><!--/.col-md-6-->
+            </div><!--/.row-->
+            <div class="row text-center" style="margin-top: 20px">
+                <a href="#" class="btn btn-lg btn-default">Inscreva-se</a>
+            </div>
+        </div>
+    </section>
+<section id="testimonial" class="alizarin">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="center">
+                    <h2>Programação</h2>
+                </div>
+                <div class="gap"></div>
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-2">
+                        <h3>19 de Março</h3>
+                        <blockquote id="schedule-block">
+                            <table id="schedule" style="font-size: 17px">
+                                <tr>
+                                    <td><b>13h</b></td>
+                                    <td>Abertura</td>
+                                </tr>
+                                <tr>
+                                    <td><b>13h15</b></td>
+                                    <td>Oficina</td>
+                                </tr>
+                                <tr>
+                                    <td><b>15h</b></td>
+                                    <td>Coffee-break</td>
+                                </tr>
+                                <tr>
+                                    <td><b>15h30</b></td>
+                                    <td>Continuação Oficina</td>
+                                </tr>
+                                <tr>
+                                    <td><b>18h</b></td>
+                                    <td>Encerramento</td>
+                                </tr>
+                            </table>
+                        </blockquote>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>20 de Março</h3>
+                        <blockquote id="schedule-block">
+                            <table id="schedule" style="font-size: 17px">
+                                <tr>
+                                    <td><b>13h</b></td>
+                                    <td>Abertura</td>
+                                </tr>
+                                <tr>
+                                    <td><b>13h15</b></td>
+                                    <td>Lorem ipsum dolor sit amet por Joana Dark</td>
+                                </tr>
+                                <tr>
+                                    <td><b>14h15</b></td>
+                                    <td>Quisque laoreet nisi ac mauris por Ada Lovelace</td>
+                                </tr>
+                                <tr>
+                                    <td><b>15h15</b></td>
+                                    <td>Lightning Talks</td>
+                                </tr>
+                                <tr>
+                                    <td><b>15h30</b></td>
+                                    <td>Coffee-break</td>
+                                </tr>
+                                <tr>
+                                    <td><b>16h</b></td>
+                                    <td>Vestibulum tristique mollis lorem por Marie Curie</td>
+                                </tr>
+                                <tr>
+                                    <td><b>17h</b></td>
+                                    <td>Mauris arcu sapien por Clarice Lispector</td>
+                                </tr>
+                                <tr>
+                                    <td><b>18h</b></td>
+                                    <td>Encerramento</td>
+                                </tr>
+                            </table>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!--/#testimonial-->
+<section id="bottom" class="wet-asphalt">
+	<div class="container">
+        <div class="col-md-4 col-sm-6">
+            <h4>Patrocinio (?)</h4>
+            <p>Pellentesque habitant morbi tristique senectus.</p>
+        </div> <!--/.col-md-4-->
+
+        <div class="col-md-4 col-sm-6">
+            <h4>Parcerias</h4>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+        </div><!--/.col-md-4-->
+      
+        <div class="col-md-4 col-sm-6">
+            <h4>Apoio</h4>
+            <p>Pellentesque habitant morbi tristique senectus.</p>
+        </div> <!--/.col-md-4-->
+    </div>
+</section>
+
+
+{% endblock %}
+
