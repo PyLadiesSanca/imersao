@@ -71,6 +71,30 @@
 
 <body id="{% block body_id %}body{% endblock %}">
 
+<header id="menutop" class="navbar navbar-inverse wet-asphalt" role="banner">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            {% if settings.SITE_TITLE %}<a class="navbar-brand" href="/">{{ settings.SITE_TITLE }}</a>{% endif %}
+            {% if settings.SITE_TAGLINE %}<p class="navbar-text visible-lg">{{ settings.SITE_TAGLINE }}</p>{% endif %}
+        </div>
+        <div class="collapse navbar-collapse">
+           {% page_menu "pages/menus/dropdown.html" %}
+           <ul class="nav navbar-nav navbar-right">
+               <li><a href="#sobre">SOBRE</a></li>
+               <li><a href="#inscrevase">INSCREVA-SE</a></li>
+               <li><a href="#programacao">PROGRAMAÇÃO</a></li>
+               <li><a href="#parceiros">PARCEIROS</a></li>
+           </ul>
+        </div>
+    </div>
+</header><!--/header-->
+
 
 
 <div class="container">

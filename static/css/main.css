@@ -1113,7 +1113,7 @@ ul.faq li > div h3 {
 }
 
 .shadow-text {
-    text-shadow: 0.1px 0.1px 10px #000;
+    text-shadow: 0.1px 0.1px 6px #000;
 }
 
 p {
@@ -1135,4 +1135,19 @@ p {
 
 #bigsubtitle {
     margin-top: 0px;
+}
+
+#menutop {
+    background-color: white;
+    margin: 0px;
+}
+
+#menutop a {
+    color: #1B397F;
+}
+
+#menutop li a {
+    font-size: 18px;
+    color: #1B397F;
+    padding: 10px 30px;
 }
