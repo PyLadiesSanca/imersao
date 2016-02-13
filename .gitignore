@@ -4,7 +4,7 @@
 .DS_Store
 .coverage
 local_settings.py
-/static
+/static/media
 *.sw[mnop]
 *~
 .venv
