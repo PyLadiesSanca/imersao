@@ -1151,3 +1151,8 @@ p {
     color: #1B397F;
     padding: 10px 30px;
 }
+
+#parceiros h4 {
+    color: #000;
+    font-weight: bold;
+}
