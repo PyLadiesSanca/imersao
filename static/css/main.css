@@ -1,4 +1,15 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+@font-face {
+    font-family: Amaranth;
+    src: 
+         url("../fonts/Amaranth-Regular.ttf");
+}
+
+@font-face {
+    font-family: NotoSerif;
+    src: 
+         url("../fonts/NotoSerif-Regular.ttf");
+}
+
 .clearfix {
   *zoom: 1;
 }
@@ -30,7 +41,7 @@ body {
   padding-top: 0px;
   color: #fff;
   background: #f5f5f5;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Helvetica';
   font-weight: 300;
 }
 h1,
@@ -39,7 +50,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Helvetica';
   font-weight: 400;
 }
 a {
@@ -1130,11 +1141,14 @@ p {
 
 #bigtitle {
     font-size: 64px;
+    margin-top: 0px;
     margin-bottom: 0px;
+    font-family: 'Amaranth';
 }
 
 #bigsubtitle {
     margin-top: 0px;
+    font-family: 'Amaranth', sans-serif;
 }
 
 #menutop {
@@ -1155,4 +1169,25 @@ p {
 #parceiros h4 {
     color: #000;
     font-weight: bold;
+}
+
+#parceiros img {
+    margin: 10px;
+}
+
+#brand {
+    font-family: 'Amaranth', sans-serif;
+}
+
+#collapse-button {
+    border-color: #1b397f;
+}
+
+#collapse-button:hover {
+    background-color: #f3f3f3;
+}
+
+#collapse-button .icon-bar {
+    background-color: #1b397f;
+
 }
