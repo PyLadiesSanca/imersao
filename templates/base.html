@@ -1,5 +1,6 @@
 <!doctype html>
-<html lang="{{ LANGUAGE_CODE }}"{% if LANGUAGE_BIDI %} dir="rtl"{% endif %}>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#"
+      lang="{{ LANGUAGE_CODE }}"{% if LANGUAGE_BIDI %} dir="rtl"{% endif %}>
 {% load pages_tags mezzanine_tags i18n future staticfiles %}
 
 <head>
@@ -7,6 +8,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="keywords" content="{% block meta_keywords %}{% endblock %}">
 <meta name="description" content="{% block meta_description %}{% endblock %}">
+<meta property="og:title" content="{{ settings.SITE_TITLE }}: {{ settings.SITE_TAGLINE }}" />
+<meta property="og:description" content="O Imersão é um evento de Python, Tecnologia da Informação e empreendedorismo voltado para o público feminino." />
+<meta property="og:image" content=" http://imersao.godzillahc.net.br/static/images/logo_imersao_og.png" />
+<meta property="og:image:height" content="200" />
 <title>{% block meta_title %}{% endblock %}{% if settings.SITE_TITLE %} | {{ settings.SITE_TITLE }}{% endif %}</title>
 <link rel="shortcut icon" href="{% static "img/favicon.ico" %}">
 
