@@ -3,7 +3,7 @@
 {% load mezzanine_tags %}
 
 {% block main %}{{ block.super }}
-<section  class="container">
+<section class="container" style="color: #636363">
 {% editable page.richtextpage.content %}
 {{ page.richtextpage.content|richtext_filters|safe }}
 {% endeditable %}
